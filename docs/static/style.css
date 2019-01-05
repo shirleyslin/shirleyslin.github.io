@@ -1,0 +1,90 @@
+/* Navy: rgba(22, 32, 86, 1); */
+/* White: #FFFFF */
+/* Gray:  #F1F1F1*/
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Ubuntu";
+    color: rgba(22, 32, 86, 1);
+}
+
+img {
+    max-width:100%;
+    max-height:100%;
+}
+
+/* Navigation Bar */
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(22, 32, 86, .9);
+    text-transform: uppercase;
+}
+.navbar-light .navbar-brand {
+    color: rgba(22, 32, 86, 1);
+    font-size: 1.8rem;
+}
+
+#banner {
+    background-image: url("banner.png");
+    background-position: stretch;
+    background-size: cover;
+    
+}
+#contact {
+    background-image: url("banner.png");
+    background-position: stretch;
+    background-size: cover;
+    
+}
+
+#banner-content {
+    background: #F1F1F1;
+    max-width: 800px;
+    width: 100%;
+    margin: 60px auto 0px auto;
+    
+}
+
+#socialmedia {
+    background: rgba(22, 32, 86, 1);
+    width: 100%;
+    max-width: 800px;
+    height: 40px;
+}
+
+footer {
+    background: rgba(22, 32, 86, 1);
+    color: white;
+    height: 50px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+   
+}
+
+#socialmedia a {
+    color: white;
+}
+
+.box {
+    width: 90%;
+    max-width: 800px;;
+    margin: 0 auto;
+    padding: 50px 0px 50px 0px; 
+}
+
+.jumbotron {
+    background-color: white;
+    padding: 25px 0px;
+    border: 2px solid #F1F1F1;
+    margin: 0px 0px;
+}
+
+.position {
+    font-style: italic;
+    font-weight: 700;
+
+}
