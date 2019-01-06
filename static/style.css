@@ -6,7 +6,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: "Ubuntu";
+    font-family: "Open Sans";
     color: rgba(22, 32, 86, 1);
 }
 
@@ -41,7 +41,7 @@ img {
 #banner-content {
     background: #F1F1F1;
     max-width: 800px;
-    width: 100%;
+    width: 90%;
     margin: 60px auto 0px auto;
     
 }
@@ -87,4 +87,10 @@ footer {
     font-style: italic;
     font-weight: 700;
 
+}
+
+.btn-secondary {
+    background-color:#F1F1F1;
+    color: rgba(22, 32, 86, 1);
+    border: none;
 }
