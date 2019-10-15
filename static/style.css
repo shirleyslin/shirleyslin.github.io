@@ -4,12 +4,17 @@
 
 html {
     scroll-behavior: smooth;
+    height: 100%
 }
 body {
-    font-family: "Open Sans";
+    font-family: "Roboto", sans-serif;
     color: rgba(22, 32, 86, 1);
+    height:100%;
 }
 
+h2{
+    font-family: "Open Sans", san-serif;
+}
 img {
     max-width:100%;
 }
@@ -28,8 +33,9 @@ img {
     background-image: url("banner.png");
     background-position: stretch;
     background-size: cover;
-    
+    min-height: 100%;
 }
+
 #contact {
     background-image: url("banner.png");
     background-position: stretch;
@@ -40,13 +46,13 @@ img {
 #banner-content {
     background: #F1F1F1;
     max-width: 800px;
-    width: 90%;
-    margin: 60px auto 0px auto;
+    width: 500px;
+    max-width: 90%;
+    margin: 20px auto 20px auto;
     
 }
 
 #socialmedia {
-    background: rgba(22, 32, 86, 1);
     width: 100%;
     max-width: 800px;
     height: 40px;
@@ -65,7 +71,7 @@ footer {
 }
 
 #socialmedia a {
-    color: white;
+    color: rgba(22, 32, 86, .9);
 }
 
 .box {
@@ -77,7 +83,7 @@ footer {
 
 .jumbotron {
     background-color: white;
-    padding: 25px 0px;
+    padding: 25px 25px;
     border: 2px solid #F1F1F1;
     margin: 0px 0px;
 }
